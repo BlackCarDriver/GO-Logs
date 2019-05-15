@@ -12,12 +12,12 @@ import (
 )
 
 //you can configurat logs package by the following values
-const(
+var(
 	// is the path saving the logs files
 	logs_root= `./logs/logsfile/`
 	// you can set mew_log = 0 when you are testing, then it will cover the oldest flode to save the logsfiles 
 	//note that new_log should be 0 or 1 !
-	create_floder = true
+	create_floder = false
 )
 
 //name of logs files
@@ -96,6 +96,7 @@ func Fatal(msg ...interface{}){
 	fmt.Println(s)
 	os.Exit(1)
 }
+
 
 //=======================================================================================
 //===================== the following is tools function ================================= 

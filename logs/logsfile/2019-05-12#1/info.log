@@ -1,0 +1,4 @@
+2019/05/15 21:37:30 [main.go -> main()] : test_syslog  
+2019/05/15 21:37:30 [main.go -> main()] : begin to listen!  
+2019/05/15 21:37:39 [logs-server.go -> readlogfile()] : Readding log:   2019-05-12#1\info.log  
+2019/05/15 21:37:42 [logs-server.go -> readlogfile()] : Readding log:   2019-05-12#1\info.log  
